@@ -4,16 +4,21 @@
     width: 100%;
 }
 
-.inline-nav-block {
-    display: inline-block;
+.left-padding {
+    display:flex;
+    padding-left: 8%;
+    align-items:center;
+}
+
+.center {
     display:flex;
     justify-content:center;
     align-items:center;
 }
 
 #title {
-    width: 55%;
-    background-color: rgb(32, 56, 100);
+    width: 49%;
+    background-color: rgb(0 42 100 / 69%);
     font: small-caps bold 36px/1 sans-serif;
     color: white;
     left: 5%;
@@ -21,14 +26,14 @@
 }
 
 .tab-unselected {
-    background-color: rgb(32, 56, 100);
+    background-color: rgb(0 42 100 / 69%);
     color: white;
     cursor: pointer;
 }
 
 .tab-selected {
     background-color: transparent;
-    color: rgb(68, 84, 106);
+    color: #00000094;
     cursor: default;
 }
 
@@ -49,12 +54,13 @@
 }
 
 #remaining {
-    width: 10%;
-    background-color: rgb(32, 56, 100);
+    width: 8%;
+    background-color: rgb(0 42 100 / 69%);
     cursor: default;
 }
 
 .bottom-page {
     bottom: 0px;
     height: 90%;
+    width: 100%;
 }

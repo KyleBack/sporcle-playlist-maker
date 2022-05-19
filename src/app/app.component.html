@@ -1,11 +1,11 @@
 <div class="nav-bar">
   <!-- App Title -->
-  <div class="inline-nav-block" id="title">
+  <div class="left-padding" id="title">
     Sporcle Playlist Maker
   </div>
 
   <!-- Home Tab -->
-  <div (click)="clickHome()" class="inline-nav-block" id="home" [ngClass]="{
+  <div (click)="clickHome()" class="center" id="home" [ngClass]="{
       'tab-selected': home_tab_selected, 
       'tab-unselected': !home_tab_selected
     }">
@@ -13,7 +13,7 @@
   </div>
 
   <!-- About Tab -->
-  <div (click)="clickAbout()" class="inline-nav-block" id="about" [ngClass]="{
+  <div (click)="clickAbout()" class="center" id="about" [ngClass]="{
     'tab-selected': !home_tab_selected, 
     'tab-unselected': home_tab_selected
     }">
@@ -21,7 +21,7 @@
   </div>
 
   <!-- Remaining Nav Bar -->
-  <div class="inline-nav-block" id="remaining">
+  <div class="center" id="remaining">
     &nbsp;
   </div>
 </div>
